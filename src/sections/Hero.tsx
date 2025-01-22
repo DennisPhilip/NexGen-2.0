@@ -2,7 +2,7 @@
 import Button from "@/components/Button";
 import Pointer from "@/components/Pointer";
 import { motion, useAnimate } from "framer-motion";
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import cursorYouImage from "@/assets/images/cursor-you.svg";
 
 export default function Hero() {
@@ -12,7 +12,7 @@ export default function Hero() {
     useEffect(() => {
         const leftPointer = leftPointerScope.current;
         const rightPointer = rightPointerScope.current;
-
+    
         const animatePointers = async () => {
             if (leftPointer) {
                 await leftPointerAnimate([
@@ -30,22 +30,22 @@ export default function Hero() {
                 ]);
             }
         };
-
-        void animatePointers();
+    
+        animatePointers();
 
         return () => {
             if (leftPointer) {
-                void leftPointerAnimate(leftPointer, { opacity: 0 });
+                leftPointerAnimate(leftPointer, { opacity: 0 });
             }
             if (rightPointer) {
-                void rightPointerAnimate(rightPointer, { opacity: 0 });
+                rightPointerAnimate(rightPointer, { opacity: 0 });
             }
         };
     }, [leftPointerAnimate, leftPointerScope, rightPointerAnimate, rightPointerScope]);
 
     return (
-        <section 
-            className="py-24" 
+        <section
+            className="py-24"
             style={{
                 cursor: `url(${cursorYouImage.src}), auto`,
                 display: 'flex',
@@ -56,16 +56,16 @@ export default function Hero() {
             }}
         >
             <div className="container text-center">
-                <motion.div 
-                    ref={leftPointerScope} 
-                    initial={{ opacity: 0, y: 100, x: -200 }} 
+                <motion.div
+                    ref={leftPointerScope}
+                    initial={{ opacity: 0, y: 100, x: -200 }}
                     className="absolute left-56 top-96 hidden lg:block"
                 >
                     <Pointer name="Dennis" />
                 </motion.div>
-                <motion.div 
-                    ref={rightPointerScope} 
-                    initial={{ opacity: 0, y: 100, x: 275 }} 
+                <motion.div
+                    ref={rightPointerScope}
+                    initial={{ opacity: 0, y: 100, x: 275 }}
                     className="absolute right-80 -top-30 hidden lg:block"
                 >
                     <Pointer name="Vineet" color="red" />
