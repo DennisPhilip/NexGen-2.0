@@ -1,13 +1,6 @@
-import logoImage from '@/assets/images/logo.svg';
-import nexusLogo from '@/assets/images/nxs.png';
 import nexusWebLogo from '@/assets/images/nexus_website_logo.png';
 import Image from 'next/image';
 
-const footerLinks = [
-    { href: "#", label: "Contact" },
-    { href: "#", label: "Privacy Policy" },
-    { href: "#", label: "Terms & Conditions" },
-];
 
 export default function Footer() {
     return (
