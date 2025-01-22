@@ -1,11 +1,13 @@
 import nexusWebLogo from '@/assets/images/nexus_website_logo.png';
 import Image from 'next/image';
+import Contact from "@/components/Contact";
 
 
 export default function Footer() {
     return (
         <footer className="w-full bottom-0">
             <section className='py-16'>
+                <Contact />
                 <div className="container">
                     <div className='flex flex-col md:flex-row items-center md:justify-between gap-6'>
                         <div>

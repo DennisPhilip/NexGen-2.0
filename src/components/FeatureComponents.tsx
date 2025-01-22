@@ -29,10 +29,12 @@ export const FeatureCards = ({ icon, title, description, bgColor }: FeatureCardP
           transition-colors duration-300 group-hover:text-opacity-90">
           {title}
         </h3>
-        <p className="text-xs sm:text-sm md:text-base text-gray-400 line-clamp-4 sm:line-clamp-none
+        <div className="hidden md:block">
+          <p className="text-xs sm:text-sm md:text-base text-gray-400 line-clamp-4 sm:line-clamp-none
           transition-colors duration-300 group-hover:text-gray-300">
-          {description}
-        </p>
+            {description}
+          </p>
+        </div>
       </div>
     </div>
   </div>

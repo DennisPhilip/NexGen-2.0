@@ -24,7 +24,7 @@ const faqs = [
     },
     {
         question: "How many rounds are there in the hackathon?",
-        answer: "1st Round: Submit your ideas to get shortlisted. Then battle with 35 teams to win the grand prize.",
+        answer: "1st Round: Submit your ideas to get shortlisted. 2nd Round: battle with 35 teams to win the grand prize.",
     },
     {
         question: "Can multiple teams from the same college participate?",
@@ -32,7 +32,7 @@ const faqs = [
     },
     {
         question: "Can the participants of a team be from different colleges?",
-        answer: "No. We only encourage team members to be from the same college.",
+        answer: "No. We encourage team members to be from the same college.",
     },
     {
         question: "Who will own the IP Rights to the product/software?",
