@@ -55,7 +55,7 @@ export const featureData = [
   {
     Icon: UserPlus,
     title: "Register with Ease",
-    description: "Registration starts 24th January, just one click away!",
+    description: "Registration starts 28th January, just one click away!",
     color: "text-amber-500",
     bgColor: "bg-amber-500/10",
   },
