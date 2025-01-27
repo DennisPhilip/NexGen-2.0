@@ -10,21 +10,21 @@ export default function DevfolioBrandLogos() {
       <div className="flex flex-row items-center justify-center">
         <Image
           src={devfolioLogo}
-          alt="Devfolio"
+          alt="DEVFOLIO LOGO"
           width={192} 
           height={48} 
           className="mx-auto"
         />
         <Image
           src={polygonLogo}
-          alt="Devfolio"
+          alt="POLYGON LOGO"
           width={192} 
           height={48} 
           className="mx-auto"
         />
         <Image
           src={ethindiaLogo}
-          alt="Devfolio"
+          alt="ETHINDIA LOGO"
           width={192} 
           height={48} 
           className="mx-auto"
