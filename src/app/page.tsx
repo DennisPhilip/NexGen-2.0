@@ -13,8 +13,8 @@ export default function Home() {
             <main className="flex-grow">
                 <Navbar />
                 <Hero />
-                <LogoTicker />
                 <DevfolioBrandLogos />
+                <LogoTicker />
                 <Features />
                 <Tracks />
                 <Faqs />
