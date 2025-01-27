@@ -6,6 +6,7 @@ import Tracks from "@/sections/Tracks";
 import Faqs from "@/sections/Faqs";
 import CallToAction from "@/sections/CallToAction";
 import Footer from "@/sections/Footer";
+import DevfolioBrandLogos from "@/sections/DevfolioBrandLogos";
 export default function Home() {
     return (
         <div className="min-h-screen flex flex-col">
@@ -13,6 +14,7 @@ export default function Home() {
                 <Navbar />
                 <Hero />
                 <LogoTicker />
+                <DevfolioBrandLogos />
                 <Features />
                 <Tracks />
                 <Faqs />

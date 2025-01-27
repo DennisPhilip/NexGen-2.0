@@ -4,6 +4,7 @@ import Pointer from "@/components/Pointer";
 import { motion, useAnimate } from "framer-motion";
 import { useEffect } from "react";
 import cursorYouImage from "@/assets/images/cursor-you.svg";
+import DevfolioButton from "@/components/DevfolioButton";
 
 export default function Hero() {
     const [leftPointerScope, leftPointerAnimate] = useAnimate();
@@ -83,6 +84,9 @@ export default function Hero() {
                     <Button variant="primary" className="whitespace-nowrap" size="sm">
                         Register
                     </Button>
+                </div>
+                <div className="flex justify-center mt-8">
+                    <DevfolioButton />
                 </div>
             </div>
         </section>
