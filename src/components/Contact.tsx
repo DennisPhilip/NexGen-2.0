@@ -7,7 +7,7 @@ interface ContactProps {
 
 const ContactCard = ({ name, phone }: ContactProps) => {
   return (
-    <div className="w-full sm:w-[500px] md:w-[600px] lg:w-[700px] mx-auto mb-4">
+    <div className="w-full sm:max-w-[500px] md:w-[600px] lg:w-[700px] px-[1rem] mb-4">
       <div className="relative overflow-hidden">
         <div className="p-4 bg-black rounded-lg border border-gray-800 hover:border-indigo-600 transition-all duration-300">
           <div className="flex items-center justify-between">

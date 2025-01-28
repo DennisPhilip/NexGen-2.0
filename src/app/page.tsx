@@ -4,12 +4,14 @@ import LogoTicker from "@/sections/LogoTicker";
 import Features from "@/sections/Features";
 import Tracks from "@/sections/Tracks";
 import Faqs from "@/sections/Faqs";
-import CallToAction from "@/sections/CallToAction";
 import Footer from "@/sections/Footer";
 import DevfolioBrandLogos from "@/sections/DevfolioBrandLogos";
+import cursorYouImage from "@/assets/images/cursor-you.svg";
 export default function Home() {
     return (
-        <div className="min-h-screen flex flex-col">
+        <div className="min-h-screen flex flex-col"
+        //  style={{cursor: `url(${cursorYouImage.src}), auto`}}
+         >
             <main className="flex-grow">
                 <Navbar />
                 <Hero />
@@ -18,7 +20,6 @@ export default function Home() {
                 <Features />
                 <Tracks />
                 <Faqs />
-                <CallToAction />
             </main>
             <Footer />
         </div>

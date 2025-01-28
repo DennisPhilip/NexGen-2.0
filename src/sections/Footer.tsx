@@ -15,7 +15,7 @@ export default function Footer() {
                         </div>
                         <div>
                             <nav className='flex gap-6'>
-                                <a href="mailto:nexus_cse@pes.edu" className='text-white/50 text-sm'>Contact</a>
+                                <a href="mailto:nexus_cse@pes.edu" className='text-white/50 text-sm hover:text-white/80'>Email Us</a>
                                 <p className='text-white/50 text-sm'>Made with <span className='text-red-500'>❤️</span> by Nexus</p>
                                 <p className='text-white/50 text-sm'>© 2025 Nexus. All rights reserved.</p>
                             </nav>

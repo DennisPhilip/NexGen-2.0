@@ -14,7 +14,7 @@ interface NavLink {
 
 const navLinks: NavLink[] = [
     { label: "Home", href: "#" },
-    { label: "Features", href: "#features" },
+    { label: "About", href: "#features" },
     { label: "Tracks", href: "#tracks" },
     { label: "FAQs", href: "#faqs" },
 ];
@@ -36,11 +36,11 @@ export default function Navbar() {
             <motion.section 
                 initial={{ y: -100 }}
                 animate={{ y: 0 }}
-                className="py-2 lg:py-3 fixed w-full top-0 z-50"
+                className="py-2 lg:py-3 fixed w-[98vw] top-0 z-50"
             >
                 <div className="container max-w-4xl px-4">
                     <div className={twMerge(
-                        "border border-blue-500/30 rounded-2xl md:rounded-full",
+                        "border border-blue-500/30 rounded-2xl lg:rounded-full",
                         "bg-neutral-950 backdrop-blur-xl",
                         "transition-all duration-300 ease-in-out",
                         scrolled ? "shadow-lg shadow-black/10" : "",
@@ -51,8 +51,9 @@ export default function Navbar() {
                             <div className="flex items-center">
                                 <Image
                                     src={nexusWebLogo}
+                                    onClick={() => window.open('https://nexus-pes-cse.vercel.app/', '_blank')}
                                     alt="Logo"
-                                    className="w-auto transition-transform duration-300 hover:scale-105"
+                                    className="w-auto transition-transform duration-300 hover:scale-105 hover:cursor-pointer"
                                     width={100}
                                     height={55}
                                     style={{
@@ -84,7 +85,7 @@ export default function Navbar() {
                                 {/* Mobile Menu Button */}
                                 <button
                                     onClick={() => setIsOpen(!isOpen)}
-                                    className="p-1.5 -mr-1.5 transition-colors rounded-lg hover:bg-white/10 md:hidden"
+                                    className="p-1.5 -mr-1.5 transition-colors rounded-lg hover:bg-white/10 lg:hidden"
                                 >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +108,7 @@ export default function Navbar() {
                                 <Button
                                     variant="primary"
                                     className={twMerge(
-                                        "hidden md:inline-flex items-center px-5 py-2",
+                                        "hidden lg:inline-flex items-center px-5 py-2",
                                         "text-[13px] font-medium tracking-wide",
                                         "transition-all duration-300 ease-out",
                                         "hover:shadow-md hover:shadow-primary-500/20",
