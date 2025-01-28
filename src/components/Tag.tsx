@@ -4,7 +4,7 @@ import { twMerge } from "tailwind-merge";
 export default function Tag(props: HTMLAttributes<HTMLDivElement>) {
     const {className, children, ...otherProps } = props;
     return (
-        <div className={twMerge("inline-flex border border-indigo-600 gap-2 text-indigo-600 px-3 py-1 rounded-full uppercase items-center", className)} {...otherProps}>
+        <div className={twMerge("inline-flex border border-[#4996ed] gap-2 text-[#4996ed] px-3 py-1 rounded-full uppercase items-center", className)} {...otherProps}>
             <span>&#10038;</span>
             <span className="text-sm">{children}</span>
         </div>

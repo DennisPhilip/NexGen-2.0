@@ -5,8 +5,8 @@ import ethindiaLogo from "@/assets/images/ethindia-light.png";
 
 export default function DevfolioBrandLogos() {
   return (
-    <section className="pb-24 overflow-x-clip">
-      <div className="flex flex-row items-center justify-center">
+    <section className="max-md:pt-4 md:pb-24 overflow-x-clip">
+      <div className="flex flex-col max-md:gap-8 md:flex-row items-center justify-center">
         <img
           src={devfolioLogo.src}
           alt="DEVFOLIO LOGO"
