@@ -6,7 +6,6 @@ import Tracks from "@/sections/Tracks";
 import Faqs from "@/sections/Faqs";
 import Footer from "@/sections/Footer";
 import DevfolioBrandLogos from "@/sections/DevfolioBrandLogos";
-import cursorYouImage from "@/assets/images/cursor-you.svg";
 export default function Home() {
     return (
         <div className="min-h-screen flex flex-col"
