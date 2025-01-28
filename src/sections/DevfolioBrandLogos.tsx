@@ -5,27 +5,24 @@ import ethindiaLogo from "@/assets/images/ethindia-light.png";
 
 export default function DevfolioBrandLogos() {
   return (
-    <section className="pb-24 overflow-x-clip">
-      <div className="flex flex-row items-center justify-center">
+    <section className="md:pb-8 max-md:pt-2 overflow-x-clip">
+      <div className="flex flex-col max-md:gap-12 md:flex-row items-center justify-center">
         <img
           src={devfolioLogo.src}
           alt="DEVFOLIO LOGO"
-          width="192"
-          height="48"
+          width="152"
           className="mx-auto"
         />
         <img
           src={polygonLogo.src}
           alt="POLYGON LOGO"
-          width="192"
-          height="48"
+          width="152"
           className="mx-auto"
         />
         <img
           src={ethindiaLogo.src}
           alt="ETHINDIA LOGO"
-          width="192"
-          height="48"
+          width="152"
           className="mx-auto"
         />
       </div>
