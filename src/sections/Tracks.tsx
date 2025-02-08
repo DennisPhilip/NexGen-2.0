@@ -8,7 +8,7 @@ const tracks = [
     { name: "Open Innovation", icon: "logo.svg", description: "Innovate your own creative solution to an existing problem." },
     { name: "FinTech", icon: "logo.svg", description: "Enable Digital payments, personal finance, or cryptocurrency." },
     { name: "Gen AI", icon: "logo.svg", description: "Harness the power of generative AI to solve real-world problems." },
-    { name: "Caze Labs: Increasing attacks on password credentials.", icon: "logo.svg", description: "Develop an AI-powered system to monitor and flag weak, reused, or compromised passwords based on enterprise directory data and custom password policies." },
+    { name: "Sponsored Track: Caze Labs", icon: "logo.svg", description: "Develop an AI-powered system to monitor and flag weak, reused, or compromised passwords based on enterprise directory data and custom password policies." },
 ];
 
 export type TracksType = typeof tracks;
