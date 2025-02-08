@@ -8,7 +8,7 @@ const tracks = [
     { name: "Open Innovation", icon: "logo.svg", description: "Innovate your own creative solution to an existing problem." },
     { name: "FinTech", icon: "logo.svg", description: "Enable Digital payments, personal finance, or cryptocurrency." },
     { name: "Gen AI", icon: "logo.svg", description: "Harness the power of generative AI to solve real-world problems." },
-    { name: "Sponsored Track: Caze Labs", icon: "logo.svg", description: "Develop an AI-powered system to monitor and flag weak, reused, or compromised passwords based on enterprise directory data and custom password policies." },
+    { name: "Caze Labs", icon: "logo.svg", description: "Sponsored Track: Adaptive AI Password Hygiene Monitor" },
 ];
 
 export type TracksType = typeof tracks;
@@ -22,7 +22,9 @@ export default function Tracks() {
                         <Tag>Tracks</Tag>
                         <h2 className="text-6xl font-medium mt-6">Think outside the <span className="text-indigo-600">Box</span> </h2>
                         <p className="text-white/50 mt-4 text-lg">
-                            Six different domain specific tracks. Come up with an unique solution to real-world problem in this domain.
+                            Seven different domain specific tracks. Come up with an unique solution to real-world problem in this domain. <br />
+                           <span className="text-indigo-600">Industry Level Problem Statement: </span> Increasing attacks on password credentials - Develop an AI-powered system to monitor and flag weak, reused, or compromised passwords based on enterprise directory data and custom password policies.
+                           Sponsored by <span className="text-indigo-600">Caze Labs.</span>
                         </p>
                     </div>
                     <div>
