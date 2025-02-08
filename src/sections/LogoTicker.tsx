@@ -18,12 +18,16 @@ const logos = [
     { name: "ETHIndia", image: quantumLogo },
     { name: "Aptos", image: acmeLogo },
     { name: "Appwrite", image: echoValleyLogo },
-    { name: "GraduVation", image: pulseLogo },
     { name: "Interview Buddy", image: outsideLogo },
     { name: ".XYZ", image: apexLogo },
     { name: "Onesta", image: celestialLogo },
     { name: "Soda Terrain", image: twiceLogo },
     { name: "CodeCrafters", image: twiceLogo },
+    { name: "Yucca IT Solutions ", image: twiceLogo },
+    { name: "Platformatory", image: twiceLogo },
+    { name: "Caze Labs", image: pulseLogo },
+    { name: "Learners Cortex", image: pulseLogo },
+
 ];
 
 export default function LogoTicker() {
