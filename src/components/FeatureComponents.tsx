@@ -44,7 +44,7 @@ export const FeatureCards = ({ icon, title, description, bgColor }: FeatureCardP
 export const FeatureGrid = ({ children }: { children: React.ReactNode }) => (
   <div className="w-full px-2 py-3 sm:p-4 md:p-6 lg:p-8"> {/* Removed bg-black */}
     <div className="max-w-7xl mx-auto">
-      <div className="grid grid-cols-2 sm:grid-cols-2 gap-2 sm:gap-3 md:gap-4 lg:gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 sm:gap-3 md:gap-4 lg:gap-6">
         {children}
       </div>
     </div>

@@ -18,8 +18,8 @@ export default function Hero() {
             }}
         >
             <div className="container text-center">
-                <div className="inline-flex py-1 px-3 bg-gradient-to-r from-indigo-600 to-pink-400 rounded-full text-neutral-950 font-semibold mt-4">
-                    &#x2728;1.5L+ worth prizes
+                <div className="inline-flex py-1 px-3 bg-gradient-to-r from-indigo-700 to-[#5000ac] rounded-full text-white font-semibold mt-4">
+                    &#x2728; 1.5L+ worth prizes
                 </div>
                 <h1 className="text-5xl md:text-7xl lg:text-8xl font-semibold mt-6">
                     Nexus presents <br/> <span className="text-indigo-600">NexGen 2.0</span>
